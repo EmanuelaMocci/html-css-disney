@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header{
+    background-color: black;
+}
+nav{
+    margin: 14px 22px;
+}
+.btn-outline-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    margin-right: 18px;
+}
+.btn-outline-primary:hover {
+    background-color: rgb(47, 121, 231);
+}
+.btn-outline{
+    border-color: #fff;
+    color: #fff;
+}
+.btn-outline:hover{
+    color: black;
+    background-color: #fff;
+}
+.button{
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+/* /Header */
+
+/* Hero */
+.hero{
+    background-image: url(../img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.disney-logo{
+    width: 160px;
+    margin-top: 45px;
+}
+h1{
+    color: white;
+    margin: 20px 0;
+    font-size: 43px;
+}
+.star-logo{
+    width: 100px;
+    vertical-align: middle;
+}
+.star-testo{
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.tariffa{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.abbonamento{
+    color: #AFAFB6;
+    font-size: 14px;
+}
+.tariffa-descrizione{
+    color: #AFAFB6;
+    font-size: 16px;
+    margin: 8px 0;
+}
+.tariffa button{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.margin-top-button{
+    margin: 32px 0;
+}
+.condizioni-abbonamento{
+    color: #AFAFB6;
+    font-size: 11px;
+}
+/* /Hero */
