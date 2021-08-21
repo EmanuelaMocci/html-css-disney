@@ -3,12 +3,19 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #050714;
+}
 /* Header */
 header{
     background-color: black;
 }
 nav{
     margin: 14px 22px;
+}
+section{
+    max-width: 90%;
+    margin: auto;
 }
 .btn-outline-primary {
     color: #fff;
@@ -27,7 +34,7 @@ nav{
     color: black;
     background-color: #fff;
 }
-.button{
+button{
     letter-spacing: 1px;
     font-size: 15px;
 }
@@ -45,7 +52,7 @@ nav{
     width: 160px;
     margin-top: 45px;
 }
-h1{
+h1, .titolo-sezione{
     color: white;
     margin: 20px 0;
     font-size: 43px;
@@ -87,3 +94,30 @@ h1{
     font-size: 11px;
 }
 /* /Hero */
+
+/* Main */
+.immagine-section-1{
+    width: 100%;
+    margin: 100px 0;
+}
+.descrizione-sezione{
+    color: #AFAFB6;
+    font-size: 20px;
+}
+.descrizione-sezione ul li{
+    margin-bottom: 20px;
+}
+.descrizione-sezione ul{
+    margin-bottom: 100px;
+}
+.col-4 img{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.abbonati{
+    padding: 15px 100px;
+    font-size: 20px;
+    margin: 150px;
+}
+/* /Main */
