@@ -47,7 +47,7 @@ button{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 700px;
     max-width: 100%;
 }
 
@@ -113,7 +113,7 @@ h1, .titolo-sezione{
 .descrizione-sezione ul{
     margin-bottom: 100px;
 }
-.col-4 img, .col-3 img{
+.responsive_img img, .device img{
     width: 100%;
     margin-top: 30px;
     border-radius: 5px;
